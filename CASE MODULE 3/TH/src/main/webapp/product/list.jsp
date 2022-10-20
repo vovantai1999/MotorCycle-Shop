@@ -2,6 +2,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix = "fmt" uri = "http://java.sun.com/jsp/jstl/fmt" %>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -74,8 +75,9 @@
                                         <td><c:out value="${product.title}"/></td>
                                         <td><c:out value="${product.quantity}"/></td>
                                         <td>
-                                            <fmt:setLocale value = "fr_CA"/>
-                                            <fmt:formatNumber value = "${product.price}" type = "currency"/>
+                                            <c:set var="price" value="${product.getPrice()}"/>
+                                            <fmt:setLocale value="vi_VN"/>
+                                            <fmt:formatNumber value="${price}" type="currency"/>
                                         </td>
                                         <td>
                                             <a href="/products?action=edit&id=${product.id}" style="margin-right:25px"><i class="fa-regular fa-pen-to-square"></i> </a>
