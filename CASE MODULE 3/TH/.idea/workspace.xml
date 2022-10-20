@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d7f7bd25-2537-4fac-95d5-d76c7f5acab5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../case-md3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/.idea/webContexts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/java/model/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/java/model/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/java/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/java/model/connection/ConnectionMySQL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/java/model/connection/IConnectionMySQL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/java/model/controller/LoginServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/java/model/controller/ProductServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/java/model/controller/UserServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/java/model/service/CategoryDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/java/model/service/ICategoryDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/java/model/service/IProductDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/java/model/service/IUserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/java/model/service/ProductDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/java/model/service/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/java/model/utils/ValidateUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/css/app.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/css/css-1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/css/css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/css/icons.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/css/s/sourcesanspro/v14/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7g.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/css/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdr.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/css/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdr.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/Pe-icon-7-stroke-1.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/Pe-icon-7-stroke-2.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/Pe-icon-7-stroke-3.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/Pe-icon-7-stroke.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/Pe-icon-7-stroke.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/Simple-Line-Icons-1.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/Simple-Line-Icons-2.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/Simple-Line-Icons-3.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/Simple-Line-Icons-4.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/Simple-Line-Icons.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/Simple-Line-Icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/dropify-1.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/dropify-2.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/dropify.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/dropify.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/fa-brands-400-1.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/fa-brands-400-2.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/fa-brands-400-3.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/fa-brands-400-4.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/fa-brands-400.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/fa-regular-400-1.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/fa-regular-400-2.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/fa-regular-400-3.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/fa-regular-400-4.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/fa-regular-400.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/fa-solid-900-1.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/fa-solid-900-2.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/fa-solid-900-3.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/fa-solid-900-4.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/fa-solid-900.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/ionicons-1.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/ionicons-2.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/ionicons-3.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/ionicons.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/ionicons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/materialdesignicons-webfont-1.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/materialdesignicons-webfont-2.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/materialdesignicons-webfont-3.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/materialdesignicons-webfont-4.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/materialdesignicons-webfont.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/summernote-1.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/summernote-2.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/summernote-3.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/summernote.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/themify-1.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/themify-2.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/themify-3.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/themify.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/themify.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/typicons-1.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/typicons-2.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/typicons-3.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/typicons.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/typicons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/weathericons-regular-webfont-1.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/weathericons-regular-webfont-2.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/weathericons-regular-webfont-3.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/weathericons-regular-webfont-4.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/weathericons-regular-webfont.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/fonts/weathericons-regular-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/animat-customize-color.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/animat-diamond-color.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/animat-rocket-color.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/animat-search-color.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/bg-pattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/blog/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/blog/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/blog/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/blog/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/dust.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/email/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/email/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/email/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/flags/VN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/flags/germany.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/flags/italy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/flags/russia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/flags/spain.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/flags/us.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/flags/vn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/flags/vn.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/happy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/about.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/accept_database.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/add_column.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/add_database.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/add_image.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/add_row.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/address_book.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/advance.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/advertising.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/alarm_clock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/alphabetical_sorting_az.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/alphabetical_sorting_za.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/answers.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/approval.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/approve.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/area_chart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/assistant.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/audio_file.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/automatic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/automotive.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/bad_decision.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/bar_chart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/bearish.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/binoculars.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/biohazard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/biomass.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/biotech.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/bookmark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/briefcase.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/broken_link.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/bullish.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/business.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/business_contact.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/businessman.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/businesswoman.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/butting_in.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/cable_release.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/calculator.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/calendar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/call_transfer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/callback.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/camcorder.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/camcorder_pro.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/camera.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/camera_addon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/camera_identification.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/cancel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/candle_sticks.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/capacitor.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/cell_phone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/charge_battery.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/checkmark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/circuit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/clapperboard.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/clear_filters.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/clock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/close_up_mode.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/cloth.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/collaboration.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/collapse.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/collect.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/combo_chart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/comments.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/compact_camera.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/conference_call.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/contacts.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/copyleft.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/copyright.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/crystal_oscillator.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/currency_exchange.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/cursor.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/customer_support.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/dam.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/data_backup.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/data_configuration.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/data_encryption.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/data_protection.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/data_recovery.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/data_sheet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/database.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/debt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/decision.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/delete_column.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/delete_database.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/delete_row.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/department.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/deployment.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/diploma_1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/diploma_2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/disapprove.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/disclaimer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/dislike.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/display.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/do_not_inhale.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/do_not_insert.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/do_not_mix.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/document.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/donate.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/doughnut_chart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/down_left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/down_right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/download.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/edit_image.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/electrical_sensor.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/electrical_threshold.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/electricity.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/electro_devices.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/electronics.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/empty_battery.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/empty_filter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/empty_trash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/end_call.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/engineering.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/entering_heaven_alive.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/expand.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/expired.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/export.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/external.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/factory.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/factory_breakdown.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/faq.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/feed_in.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/feedback.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/file.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/filing_cabinet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/filled_filter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/film.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/film_reel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/fine_print.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/flash_auto.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/flash_off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/flash_on.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/flow_chart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/folder.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/frame.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/full_battery.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/full_trash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/gallery.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/genealogy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/generic_sorting_asc.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/generic_sorting_desc.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/globe.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/good_decision.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/graduation_cap.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/grid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/headset.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/heat_map.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/high_battery.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/high_priority.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/home.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/icons8_cup.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/idea.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/image_file.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/import.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/in_transit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/info.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/inspection.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/integrated_webcam.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/internal.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/invite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/ipad.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/iphone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/key.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/kindle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/landscape.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/leave.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/left_down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/left_down2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/left_up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/left_up2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/library.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/light_at_the_end_of_tunnel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/like.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/like_placeholder.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/line_chart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/link.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/list.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/lock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/lock_landscape.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/lock_portrait.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/low_battery.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/low_priority.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/make_decision.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/manager.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/medium_priority.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/menu.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/middle_battery.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/mind_map.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/minus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/missed_call.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/mms.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/money_transfer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/multiple_cameras.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/multiple_devices.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/multiple_inputs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/multiple_smartphones.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/music.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/negative_dynamic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/neutral_decision.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/neutral_trading.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/news.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/next.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/night_landscape.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/night_portrait.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/no_idea.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/no_video.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/nook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/numerical_sorting_12.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/numerical_sorting_21.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/ok.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/old_time_camera.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/online_support.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/opened_folder.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/org_unit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/organization.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/overtime.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/package.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/paid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/panorama.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/parallel_tasks.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/phone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/phone_android.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/photo_reel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/picture.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/pie_chart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/planner.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/plus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/podium_with_audience.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/podium_with_speaker.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/podium_without_speaker.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/portrait_mode.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/positive_dynamic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/previous.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/print.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/privacy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/process.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/puzzle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/questions.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/radar_plot.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/rating.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/ratings.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/reading.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/reading_ebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/redo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/refresh.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/registered_trademark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/remove_image.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/reuse.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/right_down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/right_down2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/right_up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/right_up2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/rotate_camera.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/rotate_to_landscape.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/rotate_to_portrait.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/ruler.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/rules.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/safe.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/sales_performance.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/scatter_plot.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/self_service_kiosk.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/selfie.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/serial_tasks.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/service_mark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/services.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/settings.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/share.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/shipped.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/shop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/signature.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/sim_card.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/sim_card_chip.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/slr_back_side.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/smartphone_tablet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/sms.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/sound_recording_copyright.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/speaker.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/sports_mode.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/stack_of_photos.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/start.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/statistics.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/support.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/survey.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/switch_camera.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/synchronize.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/tablet_android.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/template.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/timeline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/todo_list.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/touchscreen_smartphone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/trademark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/tree_structure.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/two_smartphones.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/undo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/unlock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/up.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/up_left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/up_right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/upload.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/video_call.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/video_file.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/video_projector.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/view_details.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/vip.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/voice_presentation.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/voicemail.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/webcam.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/icons/workflow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/images.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/img/avatar-login.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/img/avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/img/logo-login1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/img/logo-xe-may.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/img/node-v16.18.0-darwin-x64.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/layouts/dark-rtl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/layouts/dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/layouts/light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/layouts/rtl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/logo-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/logo-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/logo-sm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/logo-xe-may-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/logotitle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/multiple-arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/plugins/bx_loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/plugins/controls.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/properties/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/properties/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/properties/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/properties/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/properties/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/properties/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/shots/shot-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/shots/shot-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/shots/shot-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/small/img-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/small/img-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/small/img-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/small/img-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/small/img-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/small/img-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/small/img-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/users/avatar-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/users/avatar-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/users/avatar-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/users/avatar-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/users/avatar-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/users/avatar-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/users/avatar-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/users/avatar-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/users/avatar-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/users/avatar-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/users/avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/users/avatar100.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/users/avatar99.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/images/users/main.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/app.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/animate.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/blog-add.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/blog-dashboard.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/bxslider.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/c3.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/calendar.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/chartist.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/chartjs.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/coming-soon.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/dashboard.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/dashboard_2.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/datatables.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/email-compose.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/flot.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/form-advanced.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/form-fileuploads.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/form-masks.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/form-pickers.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/form-quilljs.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/form-summernote.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/form-validation.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/form-wizard.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/gallery.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/gmaps.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/google-charts.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/icon.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/jquery.chat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/jquery.todo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/jvectormap.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/mapael-map.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/morris.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/nestable.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/portlet.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/property-add.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/range-sliders.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/rating.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/real-estate-dashboard.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/responsive-table.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/sparkline.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/sweetalerts.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/tabledit.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/tablesaw.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/toastr.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/pages/tooltipster.init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/js/vendor.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/animate/animate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/autocomplete/jquery.autocomplete.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/autonumeric/autoNumeric-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/bootstrap-colorpicker/bootstrap-colorpicker.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/bootstrap-colorpicker/bootstrap-colorpicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/bootstrap-datepicker/bootstrap-datepicker.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/bootstrap-datepicker/bootstrap-datepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/bootstrap-daterangepicker/daterangepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/bootstrap-daterangepicker/daterangepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/bootstrap-filestyle2/bootstrap-filestyle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/bootstrap-maxlength/bootstrap-maxlength.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/bootstrap-select/bootstrap-select.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/bootstrap-select/bootstrap-select.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/bootstrap-tagsinput/bootstrap-tagsinput.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/bootstrap-tagsinput/bootstrap-tagsinput.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/bootstrap-timepicker/bootstrap-timepicker.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/bootstrap-timepicker/bootstrap-timepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/bootstrap-touchspin/jquery.bootstrap-touchspin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/bxslider/jquery.bxslider.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/bxslider/jquery.bxslider.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/c3/c3.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/c3/c3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/chart-js/Chart.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/chartist/chartist-plugin-tooltip.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/chartist/chartist.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/chartist/chartist.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/clockpicker/bootstrap-clockpicker.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/clockpicker/bootstrap-clockpicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/custombox/custombox.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/custombox/custombox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/d3/d3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/datatables/buttons.bootstrap4.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/datatables/buttons.bootstrap4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/datatables/buttons.html5.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/datatables/buttons.print.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/datatables/dataTables.bootstrap4.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/datatables/dataTables.bootstrap4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/datatables/dataTables.buttons.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/datatables/dataTables.colVis.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/datatables/dataTables.fixedHeader.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/datatables/dataTables.keyTable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/datatables/dataTables.responsive.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/datatables/dataTables.scroller.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/datatables/fixedHeader.bootstrap4.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/datatables/jquery.dataTables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/datatables/responsive.bootstrap4.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/datatables/responsive.bootstrap4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/datatables/scroller.bootstrap4.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/dropify/dropify.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/dropify/dropify.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/flot-charts/jquery.flot.axislabels.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/flot-charts/jquery.flot.crosshair.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/flot-charts/jquery.flot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/flot-charts/jquery.flot.orderBars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/flot-charts/jquery.flot.pie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/flot-charts/jquery.flot.resize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/flot-charts/jquery.flot.selection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/flot-charts/jquery.flot.stack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/flot-charts/jquery.flot.time.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/flot-charts/jquery.flot.tooltip.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/fullcalendar/fullcalendar.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/fullcalendar/fullcalendar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/gmaps/gmaps.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/ion-rangeslider/ion.rangeSlider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/ion-rangeslider/ion.rangeSlider.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/isotope/isotope.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/jquery-countdown/jquery.countdown.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/jquery-knob/jquery.knob.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/jquery-mapael/jquery.mapael.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/jquery-mapael/usa_states.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/jquery-mapael/world_countries.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/jquery-mask-plugin/jquery.mask.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/jquery-mockjax/jquery.mockjax.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/jquery-quicksearch/jquery.quicksearch.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/jquery-scrollto/jquery.scrollTo.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/jquery-sparkline/jquery.sparkline.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/jquery-steps/jquery.steps.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/jquery-tabledit/jquery.tabledit.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/jquery-ui/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/jquery-validation/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/jquery-vectormap/jquery-jvectormap-1.2.2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/jquery-vectormap/jquery-jvectormap-1.2.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/jquery-vectormap/jquery-jvectormap-au-mill-en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/jquery-vectormap/jquery-jvectormap-ca-lcc-en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/jquery-vectormap/jquery-jvectormap-in-mill-en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/jquery-vectormap/jquery-jvectormap-uk-mill-en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/jquery-vectormap/jquery-jvectormap-us-il-chicago-mill-en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/jquery-vectormap/jquery-jvectormap-us-merc-en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/jquery-vectormap/jquery-jvectormap-world-mill-en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/jszip/jszip.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/katex/katex.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/magnific-popup/jquery.magnific-popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/magnific-popup/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/moment/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/morris-js/morris.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/multiselect/jquery.multi-select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/multiselect/multi-select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/nestable2/jquery.nestable.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/nestable2/jquery.nestable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/parsleyjs/parsley.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/pdfmake/pdfmake.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/pdfmake/vfs_fonts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/quill/quill.bubble.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/quill/quill.core.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/quill/quill.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/quill/quill.snow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/raphael/raphael.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/ratings/jquery.raty-fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/rwd-table/rwd-table.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/rwd-table/rwd-table.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/select2/select2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/select2/select2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/summernote/summernote-bs4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/summernote/summernote-bs4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/sweetalert2/sweetalert2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/sweetalert2/sweetalert2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/switchery/switchery.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/switchery/switchery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/tablesaw/tablesaw.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/tablesaw/tablesaw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/toastr/toastr.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/toastr/toastr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/tooltipster/tooltipster.bundle.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/assets/libs/tooltipster/tooltipster.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/layout/css_head.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/layout/footer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/layout/footer_js.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/layout/right_bar.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/layout/top_nav.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/product/create.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/product/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/product/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/product/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/user/create.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/user/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../case-md3/src/main/webapp/user/list.jsp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="case-md3" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/layout/footer_js.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2G6rR9H2RJAa8u0M59gnaOvyk8e" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/BaiTap/module3/JDBC BRUD/user-manager&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;7f36c5693e66bd7b4c553ce9a6cd4cb0&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.67" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.67" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+      <deployment>
+        <artifact name="Gradle : com.example : case-md3-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="463a6d32-5ae3-4892-ab5e-182d8943335c" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55574" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : com.example : case-md3-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d7f7bd25-2537-4fac-95d5-d76c7f5acab5" name="Changes" comment="" />
+      <created>1665719864817</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665719864817</updated>
+      <workItem from="1665719866240" duration="591000" />
+      <workItem from="1665720477361" duration="3227000" />
+      <workItem from="1665729781013" duration="9726000" />
+      <workItem from="1666055147044" duration="13329000" />
+      <workItem from="1666075455359" duration="3787000" />
+      <workItem from="1666080067874" duration="2089000" />
+      <workItem from="1666082251376" duration="4837000" />
+      <workItem from="1666141848806" duration="7358000" />
+      <workItem from="1666161603728" duration="2874000" />
+      <workItem from="1666168266724" duration="7110000" />
+      <workItem from="1666253066037" duration="43000" />
+      <workItem from="1666253118148" duration="460000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
